@@ -34,7 +34,6 @@ prop = Species/RS
 H = -rowSums(prop*log10(prop), na.rm = TRUE)
 H
 #Ket hop lai lam 1 ham
-#Ket hop lai lam 1 ham
 Index.function <-function(Spec, Choice){
   if (Choice=="Richness") {
     Index <- rowSums(Species>0, na.rm = TRUE)
